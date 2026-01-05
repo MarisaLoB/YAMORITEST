@@ -3789,7 +3789,10 @@ video.video-container {
   max-width: 200px;
   height: auto;
   border-radius: 0.5rem;
+  outline: 10px solid blue !important;
 }
+
+
 
 
 
