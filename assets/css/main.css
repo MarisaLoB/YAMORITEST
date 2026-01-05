@@ -3786,7 +3786,7 @@ input, select, textarea {
 		}
 .video-container {
   margin: 2rem auto 0 auto;
-  max-width: 700px; /* reduce from 900 → 700 */
+  max-width: 360px; /* reduce from 900 → 700 */
 }
 
 .video-container video {
@@ -3794,3 +3794,4 @@ input, select, textarea {
   height: auto;
   border-radius: 0.5rem;
 }
+
