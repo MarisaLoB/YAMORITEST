@@ -3794,5 +3794,9 @@ input, select, textarea {
   height: auto;
   border-radius: 0.5rem;
 }
+.video-container {
+  border: 6px solid red !important;
+}
+
 
 
