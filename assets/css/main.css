@@ -3782,15 +3782,23 @@ input, select, textarea {
 			#wrapper {
 				max-width: 100%;
 			}
+/* Force-size the embedded video no matter where the class sits */
+.video-container {
+  max-width: 200px;
+  margin: 2rem auto;
+  outline: 10px solid blue !important; /* DEBUG */
+}
+
+.video-container video,
 video.video-container {
   display: block;
-  margin: 2rem auto;
   width: 100%;
-  max-width: 200px;
   height: auto;
   border-radius: 0.5rem;
-  outline: 10px solid blue !important;
+  outline: 10px solid blue !important; /* DEBUG */
 }
+
+
 
 
 
