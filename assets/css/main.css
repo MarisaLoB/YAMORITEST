@@ -3782,7 +3782,16 @@ input, select, textarea {
 			#wrapper {
 				max-width: 100%;
 			}
+.video-container {
+  margin: 2rem auto 0 auto;
+  max-width: 700px; /* reduce from 900 → 700 */
+}
 
+.video-container video {
+  width: 100%;
+  height: auto;
+  border-radius: 0.5rem;
+}
 		}
 video.video-container {
   display: block;
@@ -3795,6 +3804,7 @@ video.video-container {
 .video-container {
   border: 6px solid red !important;
 }
+
 
 
 
