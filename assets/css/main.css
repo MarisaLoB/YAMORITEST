@@ -3792,7 +3792,7 @@ input, select, textarea {
 video.video-container {
   display: block;
   margin: 2rem auto;
-  max-width: 600px;
+  max-width: 200px;
   width: 100%;
   height: auto;
   border-radius: 0.5rem;
@@ -3800,6 +3800,7 @@ video.video-container {
 .video-container {
   border: 6px solid red !important;
 }
+
 
 
 
