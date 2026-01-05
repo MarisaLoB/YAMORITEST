@@ -3789,17 +3789,18 @@ input, select, textarea {
   outline: 10px solid blue !important; /* DEBUG */
 }
 
-.video-container video,
-video.video-container {
-  display: block;
+.video-container {
+  max-width: 400px;
+  margin: 2rem auto;
+  outline: 10px solid blue !important;
+}
+
+.video-container video {
   width: 100%;
   height: auto;
-  border-radius: 0.5rem;
-  outline: 10px solid blue !important; /* DEBUG */
+  display: block;
 }
-#main {
-  outline: 8px solid magenta !important;
-}
+
 
 
 
