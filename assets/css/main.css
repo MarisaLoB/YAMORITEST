@@ -3786,10 +3786,11 @@ video.video-container {
   display: block;
   margin: 2rem auto;
   width: 100%;
-  max-width: 200px; /* change this number to control size */
+  max-width: 200px;
   height: auto;
   border-radius: 0.5rem;
 }
+
 
 
 
