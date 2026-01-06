@@ -3790,11 +3790,13 @@ input, select, textarea {
 }
 
 #main .yamori-video video {
+	background: yellow !important;
   width: 100% !important;
   height: auto !important;
   display: block !important;
   border-radius: 0.5rem;
 }
+
 
 
 
