@@ -3783,18 +3783,20 @@ input, select, textarea {
   }
 }
 
-/* Embedded video (Stellar-compatible) */
-#main .video-container {
-  max-width: 200px;   /* control size here */
-  margin: 2rem auto;
+/* YAMORI: force video sizing (override Stellar) */
+#main .yamori-video {
+  max-width: 400px !important;   /* change this number */
+  margin: 2rem auto !important;
 }
 
-#main .video-container video {
-  width: 100%;
-  height: auto;
-  display: block;
+#main .yamori-video video {
+  width: 100% !important;
+  height: auto !important;
+  display: block !important;
   border-radius: 0.5rem;
 }
+
+
 
 
 
