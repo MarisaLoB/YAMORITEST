@@ -3783,19 +3783,7 @@ input, select, textarea {
   }
 }
 
-/* YAMORI: force video sizing (override Stellar) */
-#main .yamori-video {
-  max-width: 400px !important;   /* change this number */
-  margin: 2rem auto !important;
-}
 
-#main .yamori-video video {
-	background: yellow !important;
-  width: 100% !important;
-  height: auto !important;
-  display: block !important;
-  border-radius: 0.5rem;
-}
 
 
 
