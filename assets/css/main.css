@@ -3778,10 +3778,11 @@ input, select, textarea {
 		}
 
 		@media screen and (max-width: 360px) {
+  #wrapper {
+    max-width: 100%;
+  }
+}
 
-			#wrapper {
-				max-width: 100%;
-			}
 /* Force-size the embedded video no matter where the class sits */
 .video-container {
   max-width: 200px;
@@ -3800,6 +3801,7 @@ input, select, textarea {
   height: auto;
   display: block;
 }
+
 
 
 
