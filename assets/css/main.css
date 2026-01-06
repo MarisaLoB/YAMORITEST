@@ -3783,24 +3783,20 @@ input, select, textarea {
   }
 }
 
-/* Force-size the embedded video no matter where the class sits */
-.video-container {
-  max-width: 200px;
+/* Embedded video (Stellar-compatible) */
+#main .video-container {
+  max-width: 400px;   /* control size here */
   margin: 2rem auto;
-  outline: 10px solid blue !important; /* DEBUG */
 }
 
-.video-container {
-  max-width: 400px;
-  margin: 2rem auto;
-  outline: 10px solid blue !important;
-}
-
-.video-container video {
+#main .video-container video {
   width: 100%;
   height: auto;
   display: block;
+  border-radius: 0.5rem;
 }
+
+
 
 
 
